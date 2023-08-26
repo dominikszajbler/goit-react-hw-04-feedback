@@ -1,0 +1,21 @@
+.button {
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(218, 210, 210);
+  
+    &:hover,
+    &:focus {
+      color: black;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
